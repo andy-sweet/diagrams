@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T01:35:14.972Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="rAeYv6JH3sS9zq1tOQ5W" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T01:44:36.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5RF8Uuju3gvf1yrYTiP4" version="22.0.0" type="github">
   <diagram name="Page-1" id="tmUIB9Mfei0qjDSWE34u">
     <mxGraphModel dx="954" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="QuhtVS0g5ab3AL7SEz5x-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="239.5" y="120" as="sourcePoint" />
-            <mxPoint x="240" y="800" as="targetPoint" />
+            <mxPoint x="240" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QuhtVS0g5ab3AL7SEz5x-2" value="client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -19,7 +19,7 @@
         <mxCell id="QuhtVS0g5ab3AL7SEz5x-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="559.5" y="120" as="sourcePoint" />
-            <mxPoint x="560" y="800" as="targetPoint" />
+            <mxPoint x="560" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QuhtVS0g5ab3AL7SEz5x-7" value="new QThread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -89,10 +89,13 @@
           <mxGeometry x="400" y="640" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QuhtVS0g5ab3AL7SEz5x-25" value="delete QThread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="690" width="160" height="40" as="geometry" />
+          <mxGeometry x="400" y="790" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QuhtVS0g5ab3AL7SEz5x-26" value="process other connections" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QuhtVS0g5ab3AL7SEz5x-26" value="process other connections?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="740" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QuhtVS0g5ab3AL7SEz5x-27" value="QThread.deleteLater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="690" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
